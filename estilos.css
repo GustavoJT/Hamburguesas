@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+header{
+    background-color: darkblue;
+    color: white;
+    padding: 5px;
+
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+
+}
+.ensancha1{
+    flex-grow: 1 ;
+}
+.ensancha2{
+    flex-grow: 2;
+}
+.ensancha3{
+    flex-grow: 3;
+S}
+.PAN {
+    background-color: rgb(216, 141, 1);
+    
+    
+    margin: 2em;
+
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border-radius: 2em;
+    text-align: center;
+    
+
+    
+}
+
+.lechuga{
+    background-color: forestgreen;
+    height: 2em;
+}
+.queso{
+    background-color: rgb(253, 250, 48);
+    height: .5em;
+}
+.jitomate{
+    background-color: red;
+    height: 1em;
+}
+.carne{
+
+    background-color: saddlebrown;
+    height:3em ;
+}
+
+.jamon{
+    background-color: rgb(255, 136, 195);
+    height:  1em;
+}
+
+.mayonesa{
+    background-color: rgb(243, 255, 224);
+    height: 1em;
+}
+
+
+

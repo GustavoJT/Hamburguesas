@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.grid-4{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%; /*tambien podemos usar la unidad de medida "fr" llamada fraccion  */
+    /*1fr 1fr 1fr 1fr*;,,,, funicina como se ace con el grid */
+
+
+}
+
+section{
+    background-color: blueviolet;
+    border: 2px solid purple;
+    @media screen and (min-widht:300px){
+        grid-column: span 2;
+    }
+    @media screen and (max-widht:300px){
+        grid-column: span 4;
+    }
+    
+}
+
+aside{
+    background-color: aquamarine;
+}#principal{
+    background-color: skyblue;
+    grid-column: 1/4; /*forma tradicional de hacer nuestras columnas(sapam) aqui estamos diciendo que el espacio que ocupa es desde la primera linea del grid hasta la 4a lineaa del grid*/
+}
+
